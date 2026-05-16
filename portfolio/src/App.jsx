@@ -1,21 +1,32 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import { Routes, Route } from "react-router-dom"
+
 import './App.css'
+
 import Header from './components/Header'
-import DotMatrix from './components/DotMatrix'
+
+import Home from './pages/Home'
+import About from './pages/About'
+import Projects from './pages/Projects'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='header'>
+      {/* <div className='header'>
         <Header/>
       </div>
-      <div className='dotmatrix'>
-        <DotMatrix/>
-      </div>
+       */}
+       
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+       <Routes>
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Routes>
+        <Route path="/projects" element={<Projects/>}/>
+      </Routes>
+
       
     </>
   )

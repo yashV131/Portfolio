@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './Navbar.css'
+import { Link } from "react-router-dom";
 
 function Navbar(){
     return(
@@ -7,13 +8,13 @@ function Navbar(){
         <div className="navbar">
             <div className="nav-components">
                 <div className="home">
-                    HOME
+                    <Link to="/">HOME</Link>
                 </div>
                 <div className="about-me">
-                    ABOUT
+                   <Link to="/about">ABOUT</Link>
                 </div>
                 <div className="projects">
-                    PROJECTS
+                    <Link to="/projects">PROJECTS</Link>
                 </div>
                 <div className="experience">
                     EXPERIENCE
