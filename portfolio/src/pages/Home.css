@@ -1,21 +1,28 @@
 .columns{
-    padding: 0rem 2rem;
+    padding: 1rem 2rem;
     display: flex;
     flex-direction: row;
+    gap: 1%
 }   
-#profile-image{
-    width: 50%;
-    height: auto;
-    opacity: 0.9;
-    filter: brightness(0.7);
-    
-}
 .column1{
     /* flex:1; */
     flex: 0 0 50%;
 
 }
 .title{
-    font-size: clamp(1.5rem,4vw,1rem);
-
+    padding: 1rem 0rem;
+    width: 100%;
+    display: flex;
+    font-size: clamp(1.75rem,4vw,1rem);
+    font-weight: bolder;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: center;
+}
+#profile-image{
+    width: 99%;
+    height: auto;
+    opacity: 0.9;
+    filter: brightness(0.7);
+    
 }

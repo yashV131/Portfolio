@@ -69,14 +69,21 @@
 }
 
 .scrolling-text {
-
     font-size: 1.25rem;
     display: inline-block;
+   
     white-space: nowrap;
     will-change: transform;
-    animation: scroll 90s linear infinite;
+    animation: scroll 30s linear infinite;
 
     transform: translateX(100vw);
+}
+.scrolling-text img {
+    padding: 0rem 1rem;
+    width: 1.35%;
+    height: auto;
+    object-fit: contain; /* keeps logo aspect ratio */
+    flex-shrink: 0;
 }
 
 @keyframes scroll {

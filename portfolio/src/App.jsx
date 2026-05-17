@@ -6,7 +6,7 @@ import './App.css'
 import Header from './components/Header'
 
 import Home from './pages/Home'
-import About from './pages/About'
+
 import Projects from './pages/Projects'
 function App() {
 
@@ -20,9 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-       <Routes>
-        <Route path="/about" element={<About />} />
-      </Routes>
+       
       <Routes>
         <Route path="/projects" element={<Projects/>}/>
       </Routes>

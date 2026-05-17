@@ -8,11 +8,8 @@ function Navbar(){
         <div className="navbar">
             <div className="nav-components">
                 <div className="home">
-                    <Link to="/">HOME</Link>
-                </div>
-                <div className="about-me">
-                   <Link to="/about">ABOUT</Link>
-                </div>
+                    <Link to="/">ABOUT</Link>
+                </div>     
                 <div className="projects">
                     <Link to="/projects">PROJECTS</Link>
                 </div>
