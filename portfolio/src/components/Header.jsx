@@ -23,22 +23,25 @@ function Header() {
           ))}
         </div>
       </div>
-        <div className="header-values">
+        {/* <div className="header-values">
           <div className="weather">72 degree F</div>
           <div className="date">MAY 16, 2026</div>
-        </div>
+        </div> */}
 
         <div className="header-title">
           <div className="name">
             THE CHRONICLES OF YASHVI MEHTA
           </div>
-          <div className="tagline">
-            ~Built one commit at a time~
-          </div>
         </div>
-
+        <div className="header-values">
+          <div className="year">EST. 2007</div>
+          <div className="edition">PORTFOLIO EDITION</div>
+        </div>
         <div className="navbar">
           <Navbar />
+        </div>
+        <div className="tagline">
+            ~Built one commit at a time~
         </div>
       </div>
 

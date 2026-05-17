@@ -14,7 +14,6 @@
     flex-direction: column;
     padding: 1rem 1rem;
     text-align: center;
-    border-bottom: 0.1rem solid #000000;    
 }
 .name{
     position:relative;
@@ -40,8 +39,10 @@
     gap: 2rem;
     flex-wrap: wrap;
     color: inherit; 
+    border-bottom: 0.1rem solid #000000;    
+
 }
-.weather{
+.year{
     flex:1;
     min-width: 200px;
 }
@@ -58,7 +59,7 @@
     flex-wrap: wrap;
 }
 
-.date {
+.edition {
     color: #1d1c1c;
     font-size: clamp(0.9rem, 1.5vw, 1.1rem);
 }
