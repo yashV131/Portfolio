@@ -9,13 +9,16 @@
 .description{
     padding: 1rem 0rem;
     width: 100%;
-    display: flex;
     font-size: clamp(0.5rem,2vw,2rem);
     align-items: center;
     justify-content: center;
     font-weight: bold;
     border-left: 0.2rem solid black;
     margin: 0.1rem;
+    
+}
+.description-tagline{
+    font-size: clamp(0.1rem,1vw,1.2rem) !important;
     
 }
 .columns{
