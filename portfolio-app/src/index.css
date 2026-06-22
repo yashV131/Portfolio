@@ -1,2 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  /* Define custom keyframes */
+  @keyframes typing {
+    0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+  }
+  @keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: currentColor; }
+  }
+
+  /* Define custom animation utilities */
+  --animate-typing: typing 10s steps(30, end) infinite;
+  --animate-blink: blink 0.75s step-end infinite;
+}
