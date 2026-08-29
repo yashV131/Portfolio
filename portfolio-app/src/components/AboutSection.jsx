@@ -9,6 +9,9 @@ export default function AboutSection({ backHome }){
     
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
+        <p className="mb-2 font-mono text-sm uppercase tracking-[0.2em] text-[#B6C598]">
+							About Me
+						</p>
           <h1
             className="md:m-10 md:mt-15 font-bold text-[#D8B25C]"
             style={{

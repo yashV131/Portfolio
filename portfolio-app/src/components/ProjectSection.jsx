@@ -47,6 +47,9 @@ export default function ProjectSection() {
   return (
     <section id="projectpage" className="min-h-screen bg-[#315347]  p-8">
       <div className="max-w-6xl mx-auto">
+        <p className="mb-2 font-mono text-sm uppercase tracking-[0.2em] text-[#B6C598]">
+							Project Snapshot
+						</p>
         <HorizontalCarousel title="Projects" items={ProjectItems} />
       </div>
     </section>

@@ -12,7 +12,7 @@ export default function ResumeSection() {
 				<div className="mb-8 flex flex-col justify-between gap-5 md:flex-row md:items-end">
 					<div>
 						<p className="mb-2 font-mono text-sm uppercase tracking-[0.2em] text-[#B6C598]">
-							Career snapshot
+							Compact Career Snapshot
 						</p>
 						<h2 className="font-['Playfair_Display'] text-5xl font-bold text-[#D8B25C] md:text-7xl">
 							Resume

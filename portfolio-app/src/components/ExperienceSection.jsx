@@ -59,6 +59,9 @@ export default function ExperienceSection() {
     
       <section id="experiencepage" className="min-h-screen bg-[#2e5f4f] p-8">
       <div className="max-w-6xl mx-auto">
+        <p className="mb-2 font-mono text-sm uppercase tracking-[0.2em] text-[#B6C598]">
+							Experience snapshot
+						</p>
         <HorizontalCarousel title="Education" items={educationItems} />
         <HorizontalCarousel title="Experience" items={experienceItems} />
       </div>
