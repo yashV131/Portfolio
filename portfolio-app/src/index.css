@@ -2,6 +2,21 @@
 @import "tailwindcss";
 @import "tailwind-animations";
 
+:root {
+  font-family: 'Playfair Display', serif;
+}
+
+html,
+body,
+#root,
+* {
+  font-family: 'Playfair Display', serif !important;
+}
+
+.font-mono {
+  font-family: 'Playfair Display', serif !important;
+}
+
 @theme {
   @keyframes typing {
     0% {
@@ -27,7 +42,6 @@
   --animate-typing: typing 10s steps(30, end) infinite;
   --animate-blink: blink 0.75s step-end infinite;
 }
-
 
 /* Put this OUTSIDE @theme */
 @keyframes marquee {
